@@ -1,0 +1,9 @@
+hiju Varghese12:38 AM
+1: Download and install Go: https://go.dev
+2: Set the GOMODCACHE environment variable (Eg: export GOMODCACHE=$HOME/gocode/pkg)
+3: Set the GOBIN environment variable - Global bin directory
+for Go binaries. It’s better set to a directory on the system PATH 
+so that installed binaries can be run and discovered easily.
+4: Install GIT: https://git-scm.com 
+5: Install an IDE, VS Code: https://code.visualstudio.com GoLand: https://www.jetbrains.com/go/ (one month trial)
+6: git clone https://github.com/shijuvar/gokit.git 

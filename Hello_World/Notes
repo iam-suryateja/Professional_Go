@@ -1,0 +1,27 @@
+go.Mod file (Go Modules) -> dependency management solution for third-party dependencies
+
+go mod init module_name
+
+Library Packages
+
+1: Standard Library Packages -> GOROOT
+2: Third-Party Packages -> GOMODCACHE
+3: Custom Packages (Our Own Packages)
+
+GOOS=windows GOARCH=amd64 go build
+
+"Functions are values"
+
+str := "Gopher" // string value
+num := 100 // integer value
+
+fn := func(x,y int) int {
+    return x+y
+} // functional programming
+
+Literal expressions:
+
+Array Literal
+Slice Literal
+Map Literal
+Struct literal 
